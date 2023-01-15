@@ -15,6 +15,15 @@
     "jsx": "preserve",
     "incremental": true
   },
+  "baseUrl": ".",
+  "paths": {
+    "@components": ["./components/"],
+    "@hooks": ["./utils/hooks/"],
+    "@helpers": ["./utils/helpers/"],
+    "@constants": ["./utils/constants/"],
+    "@api": ["./utils/api/"],
+    "@types": ["./types/"]
+  },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
