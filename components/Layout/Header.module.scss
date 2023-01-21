@@ -1,0 +1,48 @@
+.header{
+  width: 100%;
+  height: 50px;
+  background: #303b44;
+  .headerLayout{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1130px) {
+      padding: 0 12px;
+      width: 100%;
+    }
+    .headerTitle{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .headerMenu{
+        display: none;
+        @media (max-width: 1130px) {
+          display: block;
+        }
+      }
+      .headerLogo{
+        font-size: 22px;
+        color: white;
+        cursor: pointer;
+        margin-top: -5px;
+        font-weight: 400;
+        span{
+          font-weight: 600;
+        }
+      }
+
+    }
+    .headerButton{
+      background: #5677fc;
+      display: none;
+      @media (max-width: 1130px) {
+        display: block;
+      }
+    }
+
+  }
+}
