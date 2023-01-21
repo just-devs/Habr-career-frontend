@@ -1,0 +1,15 @@
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40px;
+  gap: 3px;
+  cursor: pointer;
+  span{
+    width: 18px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+  }
+}
